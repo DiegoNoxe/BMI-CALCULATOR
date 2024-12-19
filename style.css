@@ -1,0 +1,66 @@
+*
+{
+    margin:  0;
+    padding: 0;
+}
+
+body
+{
+    background-color: rgba(0, 0, 0, 0.774);
+}
+
+h1, p 
+{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+h1
+{
+    margin-bottom: 20px;
+}
+
+#Height
+{
+    height: 20px;
+    border-radius: 8px;
+}
+
+#Weight
+{
+    height: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+#meuInput
+{
+    border-radius: 8px;
+    height: 20px;
+    margin-top: 30px;
+}
+
+button
+{
+    font-size: 1.4rem;
+    height: 30px;
+    border-radius: 8px;
+}
+
+.container
+{
+  display: flex;  
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  height: 50rem;
+}
+
+.subContainer
+{
+    background-color: rgba(255, 255, 255, 0.336);
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
